@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viwepoint" content="width=device-width", initial-scale="1">
+
+    <title>Who is Geonil Jang??</title>
+
+    <link rel="stylesheet" href="../bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/jumbotron.css">
+    <link rel="stylesheet" href="../css/app.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        $('#footer').load("./layout/footer.html");
+        $('#nav').load("./layout/nav.html");
+      });
+    </script>
+  </head>
+
+  <body>
+
+<!--  네비게이션 -->
+<span id="nav"></span>
+<!--  /네비게이션 -->
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">Who is Geonil?</h1>
+        <p class="text-center">geoni is a handsome guy</p>
+        <p class="text-center"> <a class="btn btn-primary btn-lg" role="button" href="#">explore Geonil</a></p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4" style="text-align:center;">
+        <h4>취미</h4>
+        <p>Yoube를 활용한 즐거운 생활코딩.</p>
+        <p><a class="btn btn-default" data-target="#modal1" data-toggle="modal" href="">자세히 알아보기</a></p>
+      </div>
+      <div class="col-md-4">
+        <h4>특기</h4>
+        <p>장건일은 매일 코딩을 하면서 하루의 대부분의 시간을 보낸다.</p>
+        <p><a class="btn btn-default" data-target="#modal2" data-toggle="modal" href="">자세히 알아보기</a></p>
+      </div>
+      <div class="col-md-4">
+        <h4>자격증/어학</h4>
+        <p>장건일은 매일 코딩을 하면서 하루의 대부분의 시간을 보낸다.</p>
+        <p><a class="btn btn-default" data-target="#modal3" data-toggle="modal" href="">자세히 알아보기</a></p>
+      </div>
+    </div>
+    <hr>
+
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;자동차</h3>
+      </div>
+      <div class="panel-body">
+        <div class="meida">
+          <div class="media-left">
+            <a href="/public/lecture.html?lectureName=C"><img class="media-object" src="img/c.png" alt="c언어"></a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="/public/lecture.html?lectureName=C">C언어 기초</a>&nbsp;<span class="badge">New</span></h4>
+            c언어 강의는 기초프로그래밍 강의입니다. 처음 프로그래밍을 접하는 입문자가 듣기에 접합한 강의입니다.
+          </div>
+        </div>
+        <hr>
+        <div class="meida">
+          <div class="media-left">
+            <a href="/public/lecture.html?lectureName=Java"><img class="media-object" src="img/node.png" alt="nodejs"></a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="/public/lecture.html?lectureName=Java">nodejs</a>&nbsp;<span class="badge">New</span></h4>
+            nodejs server side language.
+          </div>
+        </div>
+        <hr>
+        <div class="meida">
+          <div class="media-left">
+            <a href="/public/lecture.html?lectureName=Andorid"><img class="media-object" src="img/ad.png" alt="ad"></a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="/public/lecture.html?lectureName=Andorid">android</a>&nbsp;<span class="badge">New</span></h4>
+            안드로이드 앱을 만들 수있다.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- footer -->
+<span id="footer"></span>
+<!-- /footer -->
+
+<!-- 모달을 정의 한 곳 -->
+    <div class="row">
+      <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              장건일의 취미
+              <button class="close" data-dismiss="modal" type="button" name="button">&times;</button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+              저는 평소에 운전을 하는 것을 좋아 하여 <br>
+              시간여유가 생기면 드라이브를 하러 다닙니다.<br><br>
+              <img src="img/ko.jpg" alt="한글" id="imagepreview" style="width: 256px; height: 256px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              장건일의 경력
+              <button class="close" data-dismiss="modal" type="button" name="button">&times;</button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+              저는 평소에 운전을 하는 것을 좋아 하여 <br>
+              시간여유가 생기면 드라이브를 하러 다닙니다.<br><br>
+              <img src="img/ko.jpg" alt="한글" id="imagepreview" style="width: 256px; height: 256px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              장건일의 노력
+              <button class="close" data-dismiss="modal" type="button" name="button">&times;</button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+              저는 평소에 운전을 하는 것을 좋아 하여 <br>
+              시간여유가 생기면 드라이브를 하러 다닙니다.<br><br>
+              <img src="img/ko.jpg" alt="한글" id="imagepreview" style="width: 256px; height: 256px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

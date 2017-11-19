@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viwepoint" content="width=device-width", initial-scale="1">
+
+
+    <title>Who is GeonilJang??</title>
+
+
+    <link rel="stylesheet" href="../bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/jumbotron.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/export.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        $('#footer').load("./layout/footer.html");
+        $('#nav').load("./layout/nav.html");
+      });
+    </script>
+  </head>
+  <body>
+
+<!--  네비게이션 -->
+<span id="nav"></span>
+<!--  /네비게이션 -->
+
+    <!--  컨텐츠 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <span class="glyphicon glyphicon-tags"></span>
+                &nbsp;&nbsp;프로젝트 현황
+              </h3>
+            </div>
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img width="100px" height="100px" class="media-object" src="./img/geonil.jpg" alt="증명사진">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">장건일 (Geonil Jang)</h4><br>
+                  한림대학교 전자공학과 2018년 2월 졸업예정.
+                </div>
+              </div>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>프로젝트 이름</th>
+                  <th>프로젝트 번호</th>
+                  <th>프로젝트 내용</th>
+                  <th>프로젝트 기간</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>장건일</th>
+                  <th>1</th>
+                  <th><a href="lecture.html?lectureName=C">c언어 재밌다.</a></th>
+                  <th>2017-11-20</th>
+                </tr>
+                <tr>
+                  <th>장건일</th>
+                  <th>1</th>
+                  <th><a href="lecture.html?lectureName=Java">자바언어 재밌다.</a></th>
+                  <th>2017-11-20</th>
+                </tr>
+                <tr>
+                  <th>장건일</th>
+                  <th>1</th>
+                  <th><a href="lecture.html?lectureName=Android">안드로이드언어 재밌다.</a></th>
+                  <th>2017-11-20</th>
+                </tr>
+              </tbody>
+            </table>
+            <div class="panel-footer">
+              <blockquote cite="http://">
+                &nbsp;&nbsp;Do And Forget!
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- footer -->
+<span id="footer"></span>
+<!-- /footer -->
+  </body>
+</html>
