@@ -41,7 +41,7 @@ a:hover{
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus{
 	color: white;
-	background-color: #000000;
+	background-color: #bbbbbb;
 }
 
 /*네비게이션에 마우스를 올렸을떄*/

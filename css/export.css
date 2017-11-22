@@ -23,3 +23,7 @@ blockquote:after{
   margin-left: 0.25em;
   vertical-align: -0.4em;
 }
+
+#th {
+  text-align: center;
+}

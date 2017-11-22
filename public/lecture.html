@@ -4,16 +4,10 @@
     <meta charset="utf-8">
     <meta name="viwepoint" content="width=device-width", initial-scale="1">
 
-
     <title>Who is GeonilJang??</title>
 
-
     <link rel="stylesheet" href="../bootstrap-3.3.4-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/jumbotron.css">
     <link rel="stylesheet" href="../css/app.css">
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js" charset="utf-8"></script>
@@ -21,33 +15,38 @@
       $( document ).ready(function() {
         $('#footer').load("./layout/footer.html");
         $('#nav').load("./layout/nav.html");
+        var url = window.location.href;
       });
     </script>
+
+
+
+
   </head>
   <body>
-
 
 <!--  네비게이션 -->
 <span id="nav"></span>
 <!--  /네비게이션 -->
 
-
     <div class="container">
-      <div class="row">
-        <ul class="list-group">
-          <a href="#" class="list-group-item active">1강 Hello world</a>
-          <a href="#" class="list-group-item">2강 Hello world</a>
-          <a href="#" class="list-group-item">3강 Hello world</a>
-          <a href="#" class="list-group-item">4강 Hello world</a>
-          <a href="#" class="list-group-item">5강 Hello world</a>
+      <div class="row col-sm-2">
+        <ul class="list-group" style="float:left">
+          <a href="#h1" id="h1" class="list-group-item active" onclick="changeLecture('C#h1');">1강 Hello world</a>
+          <a href="#h2" id="h2" class="list-group-item" onclick="changeLecture('C#h2');">2강 Hello world</a>
+          <a href="#h3" id="h3" class="list-group-item" onclick="changeLecture('C#h3');">3강 Hello world</a>
         </ul>
       </div>
-      <div class="row">
+      <div class="row col-sm-10" style="float:left">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-resposive-item" src="http://www.youtube.com/embed/8E2B16-VEhU" width="" height=""></iframe>
+          <iframe id="ifra" class="embed-resposive-item" src="http://www.youtube.com/embed/xZu2sxahKyo" width="" height=""></iframe>
         </div>
       </div>
       <hr>
+    </div>
+
+
+    <div class="container">
       <div class="row">
         <p>
            첫 번째 강의는 c 언어 개발 환경을 설치한 이후에 "HELLO WORLD"를 출려해 보는 시간을 가집니다.
@@ -60,9 +59,6 @@ int main(void){
 }
         </pre>
       </div>
-    </div>
-
-    <div class="container">
     <hr>
       <form class="form-horizontal" action="index.html" method="post">
         <div class="form-group">
@@ -77,5 +73,28 @@ int main(void){
 
 <!-- footer -->
 <span id="footer"></span>
-<!-- /footer -->  </body>
+<!-- /footer -->
+
+<script type="text/javascript">
+var changeLecture = function(parameter){
+
+  var leclist = {'C#h1': ['xZu2sxahKyo','h1'],
+                 'C#h2': ['1i9zanO9ZVk','h2'],
+                 'C#h3': ['DA_s5DECRog','h3']
+                }
+  var lecUrl = 'http://www.youtube.com/embed/'+leclist[parameter][0];
+  console.log(lecUrl);
+  $('#ifra').attr("src", lecUrl);
+
+  if(leclist[parameter][1]){
+    console.log(leclist[parameter][1]);
+    var id = leclist[parameter][1];
+    if(id){
+        $(".list-group-item").attr("class", "list-group-item");
+        $('#'+id).attr("class", "list-group-item active");
+    }
+  }
+}
+</script>
+</body>
 </html>

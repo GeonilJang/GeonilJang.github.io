@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viwepoint" content="width=device-width", initial-scale="1">
+
+    <title>Who is GeonilJang??</title>
+
+    <link rel="stylesheet" href="../bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/jumbotron.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/export.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        $('#footer').load("./layout/footer.html");
+        $('#nav').load("./layout/nav.html");
+      });
+    </script>
+  </head>
+  <body>
+
+<!--  네비게이션 -->
+<span id="nav"></span>
+<!--  /네비게이션 -->
+
+    <!--  컨텐츠 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <span class="glyphicon glyphicon-tags"></span>
+                &nbsp;&nbsp;About Geonil.
+              </h3>
+            </div>
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img width="100px" height="100px" class="media-object" src="./img/geonil.jpg" alt="증명사진">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">장건일 (Geonil Jang)</h4><br>
+                  한림대학교 전자공학과 2018년 2월 졸업예정.
+                </div>
+              </div>
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="col-md-3">이름</th>
+                  <th class="col-md-3">나이</th>
+                  <th class="col-md-3">학력</th>
+                  <th class="col-md-3">재학기간</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>장건일 (Geonil Jang)</th>
+                  <th>26</th>
+                  <th>
+                    <ol>
+                      <li>강원고등학교</li>
+                      <li>한림대학교</li>
+                    </ol>
+                  </th>
+                  <th>
+                    <ol style="list-style:none;">
+                      <li>2008-03 ~ 2011-02 (졸업)</li>
+                      <li>2011-03 ~ 2018-02 (졸예)</li>
+                    </ol>
+                  </th>
+                </tr>
+                <tr>
+                  <th colspan="4">
+                    <div id="map" style="width:100%;height:400px;"></div>
+                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2181c2536a4c38955e635df3cc250555&libraries=services"></script>
+                    <script>
+                      var container = document.getElementById('map');
+                      var options = {
+                        center: new daum.maps.LatLng(37.8862292,127.7377722),
+                        level: 4
+                      };
+                      var map = new daum.maps.Map(container, options);
+                      var markerPosition  = new daum.maps.LatLng(37.8862292,127.7377722);
+                      var marker = new daum.maps.Marker({
+                        map: map,
+                        position: markerPosition
+                      });
+                      var infowindow = new daum.maps.InfoWindow({
+                        content: '<div style="width:150px;text-align:center;padding:6px 0;">'+'한림대학교'+'</div>'
+                      });
+                      infowindow.open(map, marker);
+                      marker.setMap(map);
+                    </script>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+            <div class="panel-footer">
+              <blockquote cite="http://">
+                &nbsp;&nbsp;Do And Forget!
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- footer -->
+<span id="footer"></span>
+<!-- /footer -->
+  </body>
+</html>
