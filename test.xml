@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<order>
+<products>
     <merchantId>myodi97</merchantId>
     <certiKey>BC02A94B-B004-4432-B19D-5C20031F2A72</certiKey>
-    <backUrl><![CDATA[http://www.naver.com]]></backUrl>
     <interface>
         <salesCode>If you have the code for this you can use.</salesCode>
         <cpaInflowCode>If you have the code for this you can use.</cpaInflowCode>
@@ -30,4 +29,4 @@
             <feePrice>0</feePrice>
         </shippingPolicy>
     </product>
-</order>
+</products>
