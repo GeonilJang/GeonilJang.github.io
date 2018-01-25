@@ -20,4 +20,42 @@
         <feePrice>0</feePrice>
     </shippingPolicy>
 </product>
+
+<product>
+    <id>00002</id>
+    <merchantProductId>00002</merchantProductId>
+    <ecMallProductId>00001</ecMallProductId>
+    <name><![CDATA[멋진상품00001]]></name>
+    <basePrice>10000</basePrice>
+    <taxType>TAX</taxType>
+    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
+    <giftName><![CDATA[멋진사은품00001]]></giftName>
+    <single>
+        <quantity>1</quantity>
+    </single>
+    <supplement>
+        <id>41</id>
+        <name>추가구성상품00001</name>
+        <price>5000</price>
+        <quantity>1</quantity>
+    </supplement>
+    <shippingPolicy>
+        <method>DELIVERY</method>
+        <feeType>CHARGE</feeType>
+        <feePayType>PREPAYED</feePayType>
+        <feePrice>2500</feePrice>
+    </shippingPolicy>
+</product>
+
+
+
+
+
+
+
+
+
+
+
 </products>
