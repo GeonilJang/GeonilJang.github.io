@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <products>
-    <merchantId>myodi97</merchantId>
+    <!-- <merchantId>myodi97</merchantId>
     <certiKey>BC02A94B-B004-4432-B19D-5C20031F2A72</certiKey>
     <interface>
         <salesCode>If you have the code for this you can use.</salesCode>
@@ -28,5 +28,43 @@
             <feePayType>FREE</feePayType>
             <feePrice>0</feePrice>
         </shippingPolicy>
-    </product>
+    </product> -->
+
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+
+        <merchantId>myodi97</merchantId>
+        <certiKey>BC02A94B-B004-4432-B19D-5C20031F2A72</certiKey>
+        <backUrl><![CDATA[http://www.naver.com]]></backUrl>
+        <interface>
+            <salesCode>If you have the code for this you can use.</salesCode>
+            <cpaInflowCode>If you have the code for this you can use.</cpaInflowCode>
+            <mileageInflowCode>If you have the code for this you can use.</mileageInflowCode>
+            <naverInflowCode>If you have the code for this you can use.</naverInflowCode>
+            <saClickId>If you have the code for this you can use.</saClickId>
+        </interface>
+        <product>
+            <id>00001</id>
+            <merchantProductId>00001</merchantProductId>
+            <ecMallProductId>00001</ecMallProductId>
+            <name><![CDATA[멋진상품00001]]></name>
+            <basePrice>10000</basePrice>
+            <taxType>TAX</taxType>
+            <infoUrl><![CDATA[http://10.67.8.111:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+            <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
+            <giftName><![CDATA[멋진사은품00001]]></giftName>
+            <single>
+                <quantity>1</quantity>
+            </single>
+            <shippingPolicy>
+                <method>DELIVERY</method>
+                <feeType>FREE</feeType>
+                <feePayType>FREE</feePayType>
+                <feePrice>0</feePrice>
+            </shippingPolicy>
+        </product>
+
+
+
 </products>
