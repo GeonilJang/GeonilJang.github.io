@@ -61,10 +61,10 @@
         <quantity>1</quantity>
         <selectedItem>
             <type>SELECT</type>
-            <name><![CDATA[option]]></name>
+            <name><![CDATA[선글라스]]></name>
             <value>
                 <id>71443</id>
-                <text><![CDATA[멋진상품 옵션추가 ]]></text>
+                <text><![CDATA[멋진상품]]></text>
             </value>
         </selectedItem>
     </option>
@@ -95,7 +95,7 @@
             <name><![CDATA[option]]></name>
             <value>
                 <id>71443</id>
-                <text><![CDATA[멋진상품 옵션추가 ]]></text>
+                <text><![CDATA[멋진상품]]></text>
             </value>
         </selectedItem>
     </option>
@@ -269,7 +269,7 @@
             <name><![CDATA[option]]></name>
             <value>
                 <id>72</id>
-                <text><![CDATA[멋진상품00002 옵션]]></text>
+                <text><![CDATA[멋진상품00002]]></text>
             </value>
         </selectedItem>
     </option>
