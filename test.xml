@@ -58,7 +58,7 @@
     <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <options>
-      <option name="<![CDATA[선글라스]]>">
+      <option name="선글라스">
         <select>
           <![CDATA[멋진상품]]>
         </select>
