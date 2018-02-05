@@ -203,6 +203,7 @@
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
+    <options>
     <option>
         <optionItem>
             <type>SELECT</type>
@@ -263,6 +264,7 @@
               <price>2000</price>
         </combination>
     </option>
+  </options>
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
