@@ -253,11 +253,11 @@
         <combination>
               <manageCode><![CDATA[R_M]]></manageCode>
               <options>
-                    <id>B</id>
+                    <id>R</id>
                     <name><![CDATA[색상]]></name>
               </options>
               <options>
-                    <id>L</id>
+                    <id>M</id>
                     <name><![CDATA[사이즈]]></name>
               </options>
               <price>2000</price>
