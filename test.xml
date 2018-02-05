@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <products>
 <product>
+    <id>00003</id>
+    <merchantProductId>00003</merchantProductId>
+    <ecMallProductId>00001</ecMallProductId>
+    <name><![CDATA[멋진상품00001 ]]></name>
+    <basePrice>30000</basePrice>
+    <taxType>TAX</taxType>
+    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html ]]></infoUrl>
+    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG ]]></imageUrl>
+    <option>
+        <quantity>1</quantity>
+        <selectedItem>
+            <type>SELECT</type>
+            <name>선글라스</name>
+            <value>
+                <id>00003</id>
+                <text>멋진상품</text>
+            </value>
+        </selectedItem>
+    </option>
+    <shippingPolicy>
+        <method>DELIVERY</method>
+        <feeType>CONDITIONAL_FREE</feeType>
+        <feePayType>PREPAYED</feePayType>
+        <feePrice>2500</feePrice>
+        <conditionalFree>
+            <basePrice>30000</basePrice>
+        </conditionalFree>
+    </shippingPolicy>
+</product>
+
+
+
+
+
+
+
+
+<product>
     <id>00001</id>
     <merchantProductId>00001</merchantProductId>
     <ecMallProductId>00001</ecMallProductId>
@@ -47,39 +85,6 @@
         <feePrice>2500</feePrice>
     </shippingPolicy>
 </product>
-
-
-<product>
-    <id>00003</id>
-    <merchantProductId>00003</merchantProductId>
-    <ecMallProductId>00001</ecMallProductId>
-    <name><![CDATA[멋진상품00001 ]]></name>
-    <basePrice>30000</basePrice>
-    <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html ]]></infoUrl>
-    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG ]]></imageUrl>
-    <option>
-        <quantity>1</quantity>
-        <selectedItem>
-            <type>SELECT</type>
-            <name>선글라스</name>
-            <value>
-                <id>00003</id>
-                <text>멋진상품</text>
-            </value>
-        </selectedItem>
-    </option>
-    <shippingPolicy>
-        <method>DELIVERY</method>
-        <feeType>CONDITIONAL_FREE</feeType>
-        <feePayType>PREPAYED</feePayType>
-        <feePrice>2500</feePrice>
-        <conditionalFree>
-            <basePrice>30000</basePrice>
-        </conditionalFree>
-    </shippingPolicy>
-</product>
-
 
 <product>
     <id>00004</id>
