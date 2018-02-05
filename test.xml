@@ -167,14 +167,12 @@
         <combination>
               <manageCode>B_L</manageCode>
               <options>
-                  <option>
                     <id>B</id>
                     <name><![CDATA[색상]]></name>
-                  </option>
-                  <option>
+              </options>
+              <options>
                     <id>L</id>
                     <name><![CDATA[사이즈]]></name>
-                  </option>
               </options>
               <price>2000</price>
         </combination>
