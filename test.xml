@@ -57,6 +57,34 @@
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <supplementSupport>false</supplementSupport>
+    <option>
+        <optionItem>
+            <type>SELECT</type>
+            <name>선글라스</name>
+            <value>
+                <id>1010</id>
+                <text>멋진상품</text>
+            </value>
+        </optionItem>
+        <optionItem>
+            <type>SELECT</type>
+            <name>선글라스</name>
+            <value>
+                <id>1010</id>
+                <text>멋진상품</text>
+            </value>
+        </optionItem>
+        <combination>
+            <manageCode>3653</manageCode>
+                <options>
+                    <name>
+                        <name>선글라스</name>
+                    </name>
+                    <id>1010</id>
+                </options>
+            <price>2000</price>
+        </combination>
+    </option>
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CONDITIONAL_FREE</feeType>
