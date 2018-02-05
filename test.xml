@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <products>
+
 <product>
     <id>00001</id>
     <merchantProductId>00001</merchantProductId>
@@ -20,6 +21,7 @@
         <feePrice>0</feePrice>
     </shippingPolicy>
 </product>
+
 <product>
     <id>00002</id>
     <merchantProductId>00002</merchantProductId>
@@ -46,6 +48,7 @@
         <feePrice>2500</feePrice>
     </shippingPolicy>
 </product>
+
 <product>
     <id>00003</id>
     <merchantProductId>00003</merchantProductId>
@@ -57,7 +60,7 @@
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <supplementSupport>false</supplementSupport>
-    <option>
+    <options>
         <optionItem>
             <type>SELECT</type>
             <name>선글라스</name>
@@ -66,17 +69,7 @@
                 <text>멋진상품</text>
             </value>
         </optionItem>
-        <combination>
-            <manageCode>3653</manageCode>
-                <options>
-                    <name>
-                        <name>선글라스</name>
-                    </name>
-                    <id>1010</id>
-                </options>
-            <price>0</price>
-        </combination>
-    </option>
+    </options>
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CONDITIONAL_FREE</feeType>
