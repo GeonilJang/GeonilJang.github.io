@@ -69,6 +69,14 @@
                 <text>멋진상품</text>
             </value>
         </optionItem>
+        <combination>
+        <manageCode>3653</manageCode>
+            <options>
+                <name>선글라스</name>
+                <id>1010</id>
+            </options>
+            <price>2000</price>
+        </combination>
     </option>
     <shippingPolicy>
         <method>DELIVERY</method>
