@@ -208,6 +208,34 @@
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
+                <id>B</id>
+                <text><![CDATA[파랑]]></text>
+            </value>
+        </optionItem>
+        <optionItem>
+            <type>SELECT</type>
+            <name><![CDATA[사이즈]]></name>
+            <value>
+                <id>L</id>
+                <text><![CDATA[라지]]></text>
+            </value>
+        </optionItem>
+        <combination>
+              <manageCode><![CDATA[B_L]]></manageCode>
+              <options>
+                    <id>B</id>
+                    <name><![CDATA[색상]]></name>
+              </options>
+              <options>
+                    <id>L</id>
+                    <name><![CDATA[사이즈]]></name>
+              </options>
+              <price>3000</price>
+        </combination>
+        <optionItem>
+            <type>SELECT</type>
+            <name><![CDATA[색상]]></name>
+            <value>
                 <id>R</id>
                 <text><![CDATA[빨강]]></text>
             </value>
@@ -248,63 +276,6 @@
         </chargeByQuantity>
     </shippingPolicy>
 </product>
-<product>
-    <id>00006</id>
-    <merchantProductId>00006</merchantProductId>
-    <ecMallProductId>00001</ecMallProductId>
-    <name><![CDATA[멋진상품00001]]></name>
-    <basePrice>30000</basePrice>
-    <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
-    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
-    <status>ON_SALE</status>
-    <optionSupport>true</optionSupport>
-    <option>
-        <optionItem>
-            <type>SELECT</type>
-            <name><![CDATA[색상]]></name>
-            <value>
-                <id>B</id>
-                <text><![CDATA[파랑]]></text>
-            </value>
-        </optionItem>
-        <optionItem>
-            <type>SELECT</type>
-            <name><![CDATA[사이즈]]></name>
-            <value>
-                <id>L</id>
-                <text><![CDATA[라지]]></text>
-            </value>
-        </optionItem>
-        <combination>
-              <manageCode><![CDATA[B_L]]></manageCode>
-              <options>
-                    <id>B</id>
-                    <name><![CDATA[색상]]></name>
-              </options>
-              <options>
-                    <id>L</id>
-                    <name><![CDATA[사이즈]]></name>
-              </options>
-              <price>3000</price>
-        </combination>
-    </option>
-    <shippingPolicy>
-        <method>DELIVERY</method>
-        <feeType>CHARGE_BY_QUANTITY</feeType>
-        <feePayType>PREPAYED</feePayType>
-        <feePrice>2500</feePrice>
-        <chargeByQuantity>
-            <type>RANGE</type>
-            <range>
-                <type>2</type>
-                <range2From>3</range2From>
-                <range2FeePrice>2500</range2FeePrice>
-            </range>
-        </chargeByQuantity>
-    </shippingPolicy>
-</product>
-
 
 <product>
     <id>00007</id>
