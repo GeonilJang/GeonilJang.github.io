@@ -66,14 +66,6 @@
                 <text>멋진상품</text>
             </value>
         </optionItem>
-        <optionItem>
-            <type>SELECT</type>
-            <name>선글라스</name>
-            <value>
-                <id>1010</id>
-                <text>멋진상품</text>
-            </value>
-        </optionItem>
         <combination>
             <manageCode>3653</manageCode>
                 <options>
@@ -95,6 +87,7 @@
         </conditionalFree>
     </shippingPolicy>
 </product>
+
 <product>
     <id>00004</id>
     <merchantProductId>00004</merchantProductId>
