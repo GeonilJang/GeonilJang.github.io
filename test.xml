@@ -204,7 +204,6 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <manageCode><![CDATA[B_L]]></manageCode>
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
@@ -222,7 +221,7 @@
             </value>
         </optionItem>
         <combination>
-              <manageCode>B_L</manageCode>
+              <manageCode><![CDATA[B_L]]></manageCode>
               <options>
                     <id>B</id>
                     <name><![CDATA[색상]]></name>
@@ -235,7 +234,6 @@
         </combination>
     </option>
     <option>
-        <manageCode><![CDATA[R_M]]></manageCode>
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
@@ -253,7 +251,7 @@
             </value>
         </optionItem>
         <combination>
-              <manageCode>B_L</manageCode>
+              <manageCode><![CDATA[R_M]]></manageCode>
               <options>
                     <id>B</id>
                     <name><![CDATA[색상]]></name>
@@ -265,17 +263,6 @@
               <price>2000</price>
         </combination>
     </option>
-
-
-
-
-
-
-
-
-
-
-
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
