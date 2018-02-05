@@ -232,6 +232,8 @@
               </options>
               <price>3000</price>
         </combination>
+    </option>
+    <option>
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
