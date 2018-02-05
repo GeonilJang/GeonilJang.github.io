@@ -49,7 +49,7 @@
 </product>
 
 <product>
-    <id>00003</id>
+    <id>000030</id>
     <merchantProductId>00003</merchantProductId>
     <ecMallProductId>00001</ecMallProductId>
     <name><![CDATA[멋진상품00001]]></name>
@@ -285,7 +285,7 @@
     <id>1000000070</id>
     <ecMallProductId>1000000070</ecMallProductId>
     <name>
-        <![CDATA[금액별 조건부 배송비 테스트(2depth)]]>
+        <![CDATA[금액별(2depth)]]>
     </name>
     <basePrice>5000</basePrice>
     <taxType>TAX</taxType>
@@ -339,6 +339,86 @@
         </combination>
     </option>
 </product>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<product>
+    <id>00003</id>
+    <ecMallProductId>00003</ecMallProductId>
+    <name><![CDATA[멋진상품00001]]></name>
+    <basePrice>30000</basePrice>
+    <taxType>TAX</taxType>
+    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
+    <status>ON_SALE</status>
+    <optionSupport>false</optionSupport>
+    <returnShippingFee>2500</returnShippingFee>
+    <exchangeShippingFee>5000</exchangeShippingFee>
+    <returnInfo>
+        <zipcode>139856</zipcode>
+        <address1><![CDATA[서울특별시 노원구 덕릉로 694]]></address1>
+        <address2><![CDATA[청우빌딩 4층]]></address2>
+        <sellername><![CDATA[CJ대한통운]]></sellername>
+        <contact1>029491693</contact1>
+        <contact2>01040479341</contact2>
+    </returnInfo>
+    <shippingPolicy>
+        <method>DELIVERY</method>
+        <feeType>FREE</feeType>
+        <feePayType>FREE</feePayType>
+        <feePrice>0</feePrice>
+    </shippingPolicy>
+</product>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </products>
