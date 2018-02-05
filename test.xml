@@ -68,6 +68,10 @@
         </value>
       </optionItem>
     </option>
+    <options>
+      <name>선글라스</name>
+      <id>00003</id>
+    </options>
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CONDITIONAL_FREE</feeType>
