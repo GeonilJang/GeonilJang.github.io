@@ -60,14 +60,14 @@
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG ]]></imageUrl>
     <option>
         <quantity>1</quantity>
-        <selectedItem>
+        <optionItem>
             <type>SELECT</type>
             <name>선글라스</name>
             <value>
                 <id>1010</id>
                 <text>멋진상품</text>
             </value>
-        </selectedItem>
+        </optionItem>
     </option>
     <shippingPolicy>
         <method>DELIVERY</method>
