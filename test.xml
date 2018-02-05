@@ -147,7 +147,6 @@
     <option>
         <quantity>1</quantity>
         <price>3000</price>
-        <manageCode><![CDATA[B_L]]></manageCode>
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
@@ -164,6 +163,20 @@
                 <text><![CDATA[라지]]></text>
             </value>
         </optionItem>
+        <combination>
+          <manageCode>3653</manageCode>
+              <options>
+                  <option>
+                    <name><![CDATA[색상]]></name>
+                    <id>B</id>
+                  </option>
+                  <option>
+                    <name><![CDATA[사이즈]]></name>
+                    <id>L</id>
+                  </option>
+              </options>
+              <price>2000</price>
+        </combination>
     </option>
     <shippingPolicy>
         <method>DELIVERY</method>
