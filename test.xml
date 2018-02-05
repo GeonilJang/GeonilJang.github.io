@@ -312,16 +312,25 @@
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://blogfiles1.naver.net/20100607_5/snbk12_1275877651045aky1e_jpg/21m_snbk12.jpg]]></imageUrl>
+    <status>ON_SALE</status>
+    <optionSupport>true</optionSupport>
     <option>
-        <quantity>1</quantity>
-        <selectedItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[option]]></name>
             <value>
                 <id>72</id>
                 <text><![CDATA[멋진상품00002]]></text>
             </value>
-        </selectedItem>
+        </optionItem>
+        <combination>
+          <manageCode>3653</manageCode>
+              <options>
+                  <name><![CDATA[option]]></name>
+                  <id>72</id>
+              </options>
+              <price>2000</price>
+        </combination>
     </option>
     <shippingPolicy>
         <groupId>7</groupId>
@@ -334,112 +343,6 @@
         </conditionalFree>
     </shippingPolicy>
 </product>
-
-<product>
-    <id>1000000070</id>
-    <ecMallProductId>1000000070</ecMallProductId>
-    <name>
-        <![CDATA[금액별(2depth)]]>
-    </name>
-    <basePrice>5000</basePrice>
-    <taxType>TAX</taxType>
-    <infoUrl>
-        <![CDATA[http://lnjts801.godomall.com/goods/goods_view.php?inflow=naverPay&goodsNo=1000000070]]>
-    </infoUrl>
-    <imageUrl>
-        <![CDATA[http://lnjts801.godomall.com//data/commonimg/ico_noimg_35.gif]]>
-    </imageUrl>
-    <status>ON_SALE</status>
-    <supplementSupport>false</supplementSupport>
-    <optionSupport>true</optionSupport>
-    <returnShippingFee>5000</returnShippingFee>
-    <exchangeShippingFee>10000</exchangeShippingFee>
-    <shippingPolicy>
-        <groupId>78</groupId>
-        <conditionalFree>
-            <basePrice>20000</basePrice>
-        </conditionalFree>
-        <feePayType>PREPAYED</feePayType>
-        <feePrice>5000</feePrice>
-        <feeType>CONDITIONAL_FREE</feeType>
-        <surchargeByArea>
-            <splitUnit>3</splitUnit>
-            <area2Price>3000</area2Price>
-            <area3Price>5000</area3Price>
-        </surchargeByArea>
-    </shippingPolicy>
-    <option>
-        <optionItem>
-            <type>SELECT</type>
-            <name>
-                <![CDATA[옵션추가금액]]>
-            </name>
-            <value>
-                <id>S_f96dc44266624f4c7c38872f742a58</id>
-                <text>
-                    <![CDATA[배송비정책]]>
-                </text>
-            </value>
-        </optionItem>
-        <combination>
-            <manageCode>3653</manageCode>
-            <options>
-                <name>
-                    <![CDATA[옵션추가금액]]>
-                </name>
-                <id>S_f96dc44266624f4c7c38872f742a58</id>
-            </options>
-            <price>2000</price>
-        </combination>
-    </option>
-</product>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
