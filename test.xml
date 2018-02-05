@@ -112,8 +112,8 @@
         <combination>
           <manageCode>3653</manageCode>
               <options>
-                  <name>선글라스</name>
-                  <id>1010</id>
+                  <name><![CDATA[option]]></name>
+                  <id>71443</id>
               </options>
               <price>2000</price>
         </combination>
