@@ -61,7 +61,6 @@
     <status>ON_SALE</status>
     <supplementSupport>false</supplementSupport>
     <option>
-        <quantity>1</quantity>
         <optionItem>
             <type>SELECT</type>
             <name>선글라스</name>
