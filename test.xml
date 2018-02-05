@@ -167,12 +167,12 @@
           <manageCode>3653</manageCode>
               <options>
                   <option>
-                    <name><![CDATA[색상]]></name>
                     <id>B</id>
+                    <name><![CDATA[색상]]></name>
                   </option>
                   <option>
-                    <name><![CDATA[사이즈]]></name>
                     <id>L</id>
+                    <name><![CDATA[사이즈]]></name>
                   </option>
               </options>
               <price>2000</price>
