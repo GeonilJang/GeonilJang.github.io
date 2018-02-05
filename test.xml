@@ -147,7 +147,6 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <price>3000</price>
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
