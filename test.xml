@@ -148,22 +148,22 @@
         <quantity>1</quantity>
         <price>3000</price>
         <manageCode><![CDATA[B_L]]></manageCode>
-        <selectedItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
                 <id>B</id>
                 <text><![CDATA[파랑]]></text>
             </value>
-        </selectedItem>
-        <selectedItem>
+        </optionItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[사이즈]]></name>
             <value>
                 <id>L</id>
                 <text><![CDATA[라지]]></text>
             </value>
-        </selectedItem>
+        </optionItem>
     </option>
     <shippingPolicy>
         <method>DELIVERY</method>
