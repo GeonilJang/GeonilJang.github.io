@@ -201,48 +201,81 @@
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
+    <status>ON_SALE</status>
+    <optionSupport>true</optionSupport>
     <option>
-        <quantity>1</quantity>
-        <price>3000</price>
         <manageCode><![CDATA[B_L]]></manageCode>
-        <selectedItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
                 <id>B</id>
                 <text><![CDATA[파랑]]></text>
             </value>
-        </selectedItem>
-        <selectedItem>
+        </optionItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[사이즈]]></name>
             <value>
                 <id>L</id>
                 <text><![CDATA[라지]]></text>
             </value>
-        </selectedItem>
+        </optionItem>
+        <combination>
+              <manageCode>B_L</manageCode>
+              <options>
+                    <id>B</id>
+                    <name><![CDATA[색상]]></name>
+              </options>
+              <options>
+                    <id>L</id>
+                    <name><![CDATA[사이즈]]></name>
+              </options>
+              <price>3000</price>
+        </combination>
     </option>
     <option>
-        <quantity>1</quantity>
-        <price>2000</price>
         <manageCode><![CDATA[R_M]]></manageCode>
-        <selectedItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
                 <id>R</id>
                 <text><![CDATA[빨강]]></text>
             </value>
-        </selectedItem>
-        <selectedItem>
+        </optionItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[사이즈]]></name>
             <value>
                 <id>M</id>
                 <text><![CDATA[미디엄]]></text>
             </value>
-        </selectedItem>
+        </optionItem>
+        <combination>
+              <manageCode>B_L</manageCode>
+              <options>
+                    <id>B</id>
+                    <name><![CDATA[색상]]></name>
+              </options>
+              <options>
+                    <id>L</id>
+                    <name><![CDATA[사이즈]]></name>
+              </options>
+              <price>2000</price>
+        </combination>
     </option>
+
+
+
+
+
+
+
+
+
+
+
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
