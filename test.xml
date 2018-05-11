@@ -38,9 +38,9 @@
         <optionItem>
             <type>INPUT</type>
             <name>선택옵션2</name>
-            <manageCode>00800</manageCode>
+            <!-- <manageCode>00800</manageCode> -->
             <value>
-                <id>1020</id>
+                <!-- <id>1020</id> -->
                 <text>멋진상품2</text>
             </value>
         </optionItem>
