@@ -25,7 +25,7 @@
             </value>
         </optionItem>
 
-        <optionItem>
+        <!-- <optionItem>
             <type>SELECT</type>
             <name>선글라스</name>
             <manageCode>00800</manageCode>
@@ -33,7 +33,7 @@
                 <id>1020</id>
                 <text>멋진상품2</text>
             </value>
-        </optionItem>
+        </optionItem> -->
 
         <!-- <combination>
           <manageCode>00700</manageCode>
@@ -213,6 +213,7 @@
                 <text><![CDATA[파랑]]></text>
             </value>
         </optionItem>
+
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[사이즈]]></name>
@@ -221,6 +222,7 @@
                 <text><![CDATA[라지]]></text>
             </value>
         </optionItem>
+
         <combination>
               <manageCode>B_L</manageCode>
               <options>
