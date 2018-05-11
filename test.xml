@@ -11,9 +11,7 @@
     <infoUrl><![CDATA[http://www.naver.com]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <giftName><![CDATA[멋진사은품00001]]></giftName>
-    <single>
-        <quantity>1</quantity>
-    </single>
+  
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>FREE</feeType>
@@ -34,7 +32,7 @@
     <name><![CDATA[멋진상품00001]]></name>
     <basePrice>10000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://10.67.8.111:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://10.67.8.111/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <giftName><![CDATA[멋진사은품00001]]></giftName>
     <single>
@@ -55,7 +53,7 @@
     <name><![CDATA[멋진상품00001]]></name>
     <basePrice>10000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <giftName><![CDATA[멋진사은품00001]]></giftName>
     <single>
@@ -82,7 +80,7 @@
     <name><![CDATA[멋진상품00001]]></name>
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
@@ -120,23 +118,21 @@
     <merchantProductId>00004</merchantProductId>
     <ecMallProductId>00001</ecMallProductId>
     <name><![CDATA[멋진상품00004]]></name>
-    <basePrice>40000</basePrice>
+    <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-      
         <optionItem>
             <type>SELECT</type>
-            <name><![CDATA[선택한 option]]></name>
+            <name><![CDATA[option]]></name>
             <value>
                 <id>71443</id>
                 <text><![CDATA[멋진상품]]></text>
             </value>
         </optionItem>
-
         <combination>
           <manageCode>3653</manageCode>
               <options>
@@ -146,8 +142,6 @@
               <price>2000</price>
         </combination>
     </option>
-
-
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CONDITIONAL_FREE</feeType>
@@ -165,10 +159,6 @@
     </shippingPolicy>
 </product>
 
-
-
-
-
 <product>
     <id>00005</id>
     <merchantProductId>00005</merchantProductId>
@@ -176,7 +166,7 @@
     <name><![CDATA[멋진상품00001]]></name>
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
@@ -233,7 +223,7 @@
     <name><![CDATA[멋진상품00001]]></name>
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
@@ -320,7 +310,7 @@
     <name><![CDATA[멋진상품00001]]></name>
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <single>
         <quantity>1</quantity>
@@ -344,7 +334,7 @@
     <name><![CDATA[멋진상품00002]]></name>
     <basePrice>50000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://blogfiles1.naver.net/20100607_5/snbk12_1275877651045aky1e_jpg/21m_snbk12.jpg]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
