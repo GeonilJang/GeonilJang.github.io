@@ -14,7 +14,6 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
@@ -47,6 +46,7 @@
           </options>
         </combination>
 
+    </option>
 
 
         <!-- <optionItem>
@@ -68,7 +68,7 @@
               <price>2000</price>
         </combination> -->
 
-    </option>
+    <!-- </option> -->
 
     <shippingPolicy>
         <method>DELIVERY</method>
@@ -246,7 +246,7 @@
                 <text><![CDATA[라지]]></text>
             </value>
         </optionItem>
-
+<!-- 
         <combination>
               <manageCode>B_L</manageCode>
               <options>
@@ -258,7 +258,7 @@
                     <name><![CDATA[사이즈]]></name>
               </options>
               <price>3000</price>
-        </combination>
+        </combination> -->
     </option>
 
 
