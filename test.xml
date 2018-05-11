@@ -43,12 +43,12 @@
             <manageCode>00700</manageCode>
             <price>20000</price>
             <options>
-              <name>선택옵션1_1</name>
-              <id>1010</id>
+              <name>색상</name>
+              <id>R</id>
             </options>
             <options>
-            <name>선택옵션1_2</name>
-            <id>1011</id>
+            <name>사이즈</name>
+            <id>L</id>
           </options>
         </combination>
 
