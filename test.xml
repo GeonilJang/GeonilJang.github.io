@@ -30,8 +30,8 @@
             <name>선택옵션1_2</name>
             <manageCode>00800</manageCode>
             <value>
-                <id>1010</id>
-                <text>멋진상품1</text>
+                <id>1011</id>
+                <text>멋진상품2</text>
             </value>
         </optionItem>
 
