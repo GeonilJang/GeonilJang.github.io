@@ -24,11 +24,11 @@
                 <text>멋진상품1</text>
             </value>
         </optionItem>
-        
+
         <optionItem>
             <type>SELECT</type>
             <name>선택옵션1_2</name>
-            <manageCode>00700</manageCode>
+            <manageCode>00800</manageCode>
             <value>
                 <id>1010</id>
                 <text>멋진상품1</text>
@@ -36,8 +36,8 @@
         </optionItem>
 
         <optionItem>
-            <type>SELECT</type>
-            <name>선글라스</name>
+            <type>INPUT</type>
+            <name>선택옵션2</name>
             <manageCode>00800</manageCode>
             <value>
                 <id>1020</id>
