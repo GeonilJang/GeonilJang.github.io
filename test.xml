@@ -17,7 +17,17 @@
     <option>
         <optionItem>
             <type>SELECT</type>
-            <name>선글라스</name>
+            <name>선택옵션1_1</name>
+            <manageCode>00700</manageCode>
+            <value>
+                <id>1010</id>
+                <text>멋진상품1</text>
+            </value>
+        </optionItem>
+        
+        <optionItem>
+            <type>SELECT</type>
+            <name>선택옵션1_2</name>
             <manageCode>00700</manageCode>
             <value>
                 <id>1010</id>
