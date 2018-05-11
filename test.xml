@@ -15,23 +15,25 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <!-- <optionItem>
+        <optionItem>
             <type>SELECT</type>
             <name>선글라스</name>
+            <manageCode>00700</manageCode>
             <value>
                 <id>1010</id>
                 <text>멋진상품</text>
             </value>
-        </optionItem> -->
+        </optionItem>
 
-        <combination>
-          <manageCode>3653</manageCode>
+        <!-- <combination>
+          <manageCode>00700</manageCode>
               <options>
                   <name>선글라스</name>
                   <id>1010</id>
               </options>
               <price>2000</price>
-        </combination>
+        </combination> -->
+
     </option>
 
     <shippingPolicy>
