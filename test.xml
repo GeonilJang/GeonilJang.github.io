@@ -15,11 +15,13 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
+
         <optionItem>
             <type>SELECT</type>
             <name>선택옵션1_1</name>
             <manageCode>00700</manageCode>
             <value>
+                <status>true</status>
                 <id>1010</id>
                 <text>멋진상품1_1</text>
             </value>
@@ -30,6 +32,7 @@
             <name>선택옵션1_2</name>
             <manageCode>00700</manageCode>
             <value>
+                <status>true</status>
                 <id>1011</id>
                 <text>멋진상품1_2</text>
             </value>
@@ -303,6 +306,8 @@
                 <text><![CDATA[라지]]></text>
             </value>
         </optionItem>
+
+
         <combination>
               <manageCode><![CDATA[B_L]]></manageCode>
               <options>
