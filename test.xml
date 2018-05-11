@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <products>
 
+ <product>
+    <id>001</id>
+    <merchantProductId>00001</merchantProductId>
+    <ecMallProductId>00001</ecMallProductId>
+    <name><![CDATA[네이버페이 테스트 상품001]]></name>
+    <basePrice>30000</basePrice>
+    <taxType>TAX</taxType>
+    <infoUrl><![CDATA[http://10.67.8.111:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
+    <giftName><![CDATA[멋진사은품00001]]></giftName>
+    <single>
+        <quantity>1</quantity>
+    </single>
+    <shippingPolicy>
+        <method>DELIVERY</method>
+        <feeType>FREE</feeType>
+        <feePayType>FREE</feePayType>
+        <feePrice>0</feePrice>
+    </shippingPolicy>
+</product>
+
 <product>
     <id>00001</id>
     <merchantProductId>00001</merchantProductId>
