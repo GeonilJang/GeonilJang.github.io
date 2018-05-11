@@ -10,7 +10,6 @@
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://www.naver.com]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
-    <giftName><![CDATA[멋진사은품00001]]></giftName>
 
     <!-- <status>ON_SALE</status> -->
     <!-- <optionSearch>true</optionSearch> -->
@@ -40,15 +39,15 @@
 
 
         <combination>
-            <manageCode>사이즈_라지,색상_블루</manageCode>
+            <manageCode>R_S</manageCode>
             <price>20000</price>
             <options>
-              <name>사이즈</name>
-              <id>라지</id>
+              <name><![CDATA[색상]]></name>
+              <id>R</id>
             </options>
             <options>
-            <name>색상</name>
-            <id>블루</id>
+            <name><![CDATA[사이즈]]></name>
+            <id>S</id>
           </options>
         </combination>
 
