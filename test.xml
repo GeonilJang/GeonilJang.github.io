@@ -9,7 +9,7 @@
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
-    <imageUrl><![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjvo_0DmoD48MxGmGY7Jd1ZPl59HQZRRx-bluMofuOjvi3qTk]]></imageUrl>
+    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <giftName><![CDATA[멋진사은품00001]]></giftName>
     <single>
         <quantity>1</quantity>
