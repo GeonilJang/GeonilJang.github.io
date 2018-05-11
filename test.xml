@@ -119,22 +119,24 @@
     <id>00004</id>
     <merchantProductId>00004</merchantProductId>
     <ecMallProductId>00001</ecMallProductId>
-    <name><![CDATA[멋진상품00001]]></name>
-    <basePrice>30000</basePrice>
+    <name><![CDATA[멋진상품00004]]></name>
+    <basePrice>40000</basePrice>
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://localhost:81/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
+      
         <optionItem>
             <type>SELECT</type>
-            <name><![CDATA[option]]></name>
+            <name><![CDATA[선택한 option]]></name>
             <value>
                 <id>71443</id>
                 <text><![CDATA[멋진상품]]></text>
             </value>
         </optionItem>
+
         <combination>
           <manageCode>3653</manageCode>
               <options>
@@ -144,6 +146,8 @@
               <price>2000</price>
         </combination>
     </option>
+
+
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CONDITIONAL_FREE</feeType>
@@ -160,6 +164,10 @@
         </surchargeByArea>
     </shippingPolicy>
 </product>
+
+
+
+
 
 <product>
     <id>00005</id>
