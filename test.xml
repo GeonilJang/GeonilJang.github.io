@@ -15,7 +15,7 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <optionItem>
+        <!-- <optionItem>
             <type>SELECT</type>
             <name>선택옵션1_1</name>
             <manageCode>00700</manageCode>
@@ -33,7 +33,19 @@
                 <id>1011</id>
                 <text>멋진상품2</text>
             </value>
-        </optionItem>
+        </optionItem> -->
+        <combination>
+          <manageCode>00700</manageCode>
+          <options>
+            <name>선택옵션1_1</name>
+            <id>1010</id>
+          </options>
+          <name>선택옵션1_2</name>
+          <id>1011</id>
+        </options>
+        </combination>
+
+
 
         <optionItem>
             <type>INPUT</type>
