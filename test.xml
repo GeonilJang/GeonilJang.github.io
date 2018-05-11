@@ -23,15 +23,15 @@
                 <text>멋진상품</text>
             </value>
         </optionItem>
-        
-        <combination>
+
+        <!-- <combination>
           <manageCode>3653</manageCode>
               <options>
                   <name>선글라스</name>
                   <id>1010</id>
               </options>
               <price>2000</price>
-        </combination>
+        </combination> -->
     </option>
 
     <shippingPolicy>
