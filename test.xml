@@ -40,17 +40,30 @@
 
         <combination>
             <manageCode>R_S</manageCode>
-            <price>20000</price>
             <options>
-              <name><![CDATA[색상]]></name>
               <id>R</id>
+              <name><![CDATA[색상]]></name>
             </options>
             <options>
-            <name><![CDATA[사이즈]]></name>
-            <id>S</id>
-          </options>
+              <id>S</id>
+              <name><![CDATA[사이즈]]></name>
+            </options>
+            <price>20000</price>
         </combination>
 
+
+        <combination>
+              <manageCode>B_L</manageCode>
+              <options>
+                    <id>B</id>
+                    <name><![CDATA[색상]]></name>
+              </options>
+              <options>
+                    <id>L</id>
+                    <name><![CDATA[사이즈]]></name>
+              </options>
+              <price>3000</price>
+        </combination>
 
 
         <!-- <optionItem>
