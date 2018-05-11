@@ -49,13 +49,13 @@
               <id>S</id>
           </options>
         </combination>
-        
+
         <combination>
             <manageCode>G_S</manageCode>
             <price>20000</price>
             <options>
               <name><![CDATA[색상]]></name>
-              <id>R</id>
+              <id>G</id>
             </options>
             <options>
               <name><![CDATA[사이즈]]></name>
