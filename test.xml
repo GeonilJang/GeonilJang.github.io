@@ -15,27 +15,23 @@
     <optionSupport>true</optionSupport>
     <option>
 
-        <!-- <optionItem>
+        <optionItem>
             <type>SELECT</type>
-            <name>선택옵션1_1</name>
-            <manageCode>00700</manageCode>
+            <name><![CDATA[색상]]></name>
             <value>
-                <status>true</status>
-                <id>1010</id>
-                <text>멋진상품1_1</text>
+                <id>R</id>
+                <text><![CDATA[빨강]]></text>
             </value>
         </optionItem>
 
         <optionItem>
             <type>SELECT</type>
-            <name>선택옵션1_2</name>
-            <manageCode>00700</manageCode>
+            <name><![CDATA[사이즈]]></name>
             <value>
-                <status>true</status>
-                <id>1011</id>
-                <text>멋진상품1_2</text>
+                <id>S</id>
+                <text><![CDATA[스몰]]></text>
             </value>
-        </optionItem> -->
+        </optionItem>
 
 
         <combination>
