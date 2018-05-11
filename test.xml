@@ -229,7 +229,7 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <optionItem>
+        <!-- <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
@@ -245,8 +245,8 @@
                 <id>L</id>
                 <text><![CDATA[라지]]></text>
             </value>
-        </optionItem>
-<!-- 
+        </optionItem> -->
+
         <combination>
               <manageCode>B_L</manageCode>
               <options>
@@ -258,7 +258,7 @@
                     <name><![CDATA[사이즈]]></name>
               </options>
               <price>3000</price>
-        </combination> -->
+        </combination>
     </option>
 
 
