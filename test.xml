@@ -41,7 +41,7 @@
 
         <combination>
             <manageCode>00700</manageCode>
-            <price>20000<price>
+            <price>20000</price>
             <options>
               <name>선택옵션1_1</name>
               <id>1010</id>
@@ -54,15 +54,15 @@
 
 
 
-        <optionItem>
+        <!-- <optionItem>
             <type>INPUT</type>
             <name>선택옵션2</name>
-            <!-- <manageCode>00800</manageCode> -->
+            <manageCode>00800</manageCode>
             <value>
-                <!-- <id>1020</id> -->
+                <id>1020</id>
                 <text>멋진상품2</text>
             </value>
-        </optionItem>
+        </optionItem> -->
 
         <!-- <combination>
           <manageCode>00700</manageCode>
