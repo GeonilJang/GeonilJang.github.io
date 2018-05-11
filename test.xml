@@ -12,8 +12,8 @@
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <giftName><![CDATA[멋진사은품00001]]></giftName>
 
-    <status>ON_SALE</status>
-    <optionSupport>true</optionSupport>
+    <!-- <status>ON_SALE</status> -->
+    <!-- <optionSearch>true</optionSearch> -->
     <option>
 
         <!-- <optionItem>
@@ -40,15 +40,15 @@
 
 
         <combination>
-            <manageCode>00700</manageCode>
+            <manageCode>사이즈_라지,색상_블루</manageCode>
             <price>20000</price>
             <options>
-              <name>색상</name>
-              <id>1010</id>
+              <name>사이즈</name>
+              <id>사이즈_라지</id>
             </options>
             <options>
-            <name>사이즈</name>
-            <id>1011</id>
+            <name>색상</name>
+            <id>색상_블루</id>
           </options>
         </combination>
 
@@ -265,6 +265,9 @@
               <price>3000</price>
         </combination>
     </option>
+
+
+
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
