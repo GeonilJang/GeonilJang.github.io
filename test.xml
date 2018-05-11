@@ -8,7 +8,7 @@
     <name><![CDATA[네이버페이 테스트 상품001]]></name>
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
-    <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
+    <infoUrl><![CDATA[http://www.naver.com]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
     <giftName><![CDATA[멋진사은품00001]]></giftName>
     <single>
@@ -21,6 +21,11 @@
         <feePrice>0</feePrice>
     </shippingPolicy>
 </product>
+
+
+
+
+
 
 <product>
     <id>00001</id>
