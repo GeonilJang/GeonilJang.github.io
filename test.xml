@@ -44,11 +44,11 @@
             <price>20000</price>
             <options>
               <name>색상</name>
-              <id>R</id>
+              <id>1010</id>
             </options>
             <options>
             <name>사이즈</name>
-            <id>L</id>
+            <id>1011</id>
           </options>
         </combination>
 
