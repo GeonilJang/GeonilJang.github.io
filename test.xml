@@ -41,8 +41,8 @@
               <id>R</id>
             </options>
             <options>
-            <name><![CDATA[사이즈]]></name>
-            <id>S</id>
+              <name><![CDATA[사이즈]]></name>
+              <id>S</id>
           </options>
         </combination>
 
