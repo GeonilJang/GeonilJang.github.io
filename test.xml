@@ -36,7 +36,7 @@
         </optionItem> -->
         <combination>
           <manageCode>00700</manageCode>
-          
+
         </combination>
 
 
@@ -152,6 +152,12 @@
               <price>2000</price>
         </combination>
     </option>
+    <supplement>
+        <id>41</id>
+        <name>추가구성상품00001</name>
+        <price>5000</price>
+        <quantity>1</quantity>
+    </supplement>
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CONDITIONAL_FREE</feeType>
