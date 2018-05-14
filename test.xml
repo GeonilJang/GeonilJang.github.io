@@ -66,15 +66,16 @@
     </option>
 
 
-        <!-- <optionItem>
+        <optionItem>
             <type>INPUT</type>
             <name>선택옵션2</name>
             <manageCode>00800</manageCode>
+            <price>2000</price>
             <value>
                 <id>1020</id>
                 <text>멋진상품2</text>
             </value>
-        </optionItem> -->
+        </optionItem>
 
         <!-- <combination>
           <manageCode>00700</manageCode>
