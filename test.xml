@@ -14,7 +14,7 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <optionItem>
+        <!-- <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
@@ -61,7 +61,7 @@
               <name><![CDATA[사이즈]]></name>
               <id>S</id>
           </options>
-        </combination>
+        </combination> -->
 
 
         <optionItem>
