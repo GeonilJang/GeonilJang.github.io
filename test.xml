@@ -16,7 +16,7 @@
     <optionSupport>true</optionSupport>
     <option>
       <optionItem>
-        <name>사이즈</name>
+        <name>폭 X 길이</name>
         <type>INPUT</type>
         <value>
           <id>450450</id>
@@ -24,6 +24,10 @@
         </value>
       <optionItem>
     </option>
+
+
+
+
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>FREE</feeType>
