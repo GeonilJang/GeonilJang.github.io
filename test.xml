@@ -14,7 +14,7 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-        <!-- <optionItem>
+        <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
             <value>
@@ -61,25 +61,29 @@
               <name><![CDATA[사이즈]]></name>
               <id>S</id>
           </options>
-        </combination> -->
+        </combination>
+
+
 
 
         <optionItem>
-          <type>INPUT</type>
-          <name>폭 X 길이</name>
-          <value>
-            <id>450450</id>
-          </value>
+            <type>INPUT</type>
+            <name>선택옵션2</name>
+            <value>
+                <id>1020</id>
+                <text>멋진상품2</text>
+            </value>
         </optionItem>
-        <combination>
-          <manageCode>5099</manageCode>
-          <price>2000</price>
-          <options>
-            <name>폭 X 길이</name>
-            <id>450450</id>
-          </options>
-        </combination>
 
+        <combination>
+            <manageCode>00800</manageCode>
+            <price>2000</price>
+            <options>
+              <name><![CDATA[색상]]></name>
+              <id>G</id>
+            </options>
+
+        </combination>
 
     </option>
 
