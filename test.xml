@@ -16,11 +16,11 @@
     <optionSupport>true</optionSupport>
     <option>
       <optionItem>
-        <name>폭 X 길이</name>
+        <name>사이즈</name>
         <type>INPUT</type>
         <value>
           <id>450450</id>
-          <text>450cm x 450cm</text>
+          <text>사이즈1</text>
         </value>
       <optionItem>
     </option>
