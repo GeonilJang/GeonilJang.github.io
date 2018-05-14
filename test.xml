@@ -2,15 +2,15 @@
 <products>
 
  <product>
-    <id>001</id>
-    <merchantProductId>00001</merchantProductId>
-    <ecMallProductId>00001</ecMallProductId>
-    <name><![CDATA[네이버페이 테스트 상품001]]></name>
+    <id>product01</id>
+    <merchantProductId>0000001</merchantProductId>
+    <ecMallProductId>0000001</ecMallProductId>
+    <name><![CDATA[블라인트]]></name>
     <basePrice>30000</basePrice>
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://www.naver.com]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
-    <giftName><![CDATA[멋진사은품00001]]></giftName>
+
 
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
