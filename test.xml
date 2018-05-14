@@ -15,7 +15,14 @@
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
     <option>
-
+      <optionItem>
+        <type>INPUT</type>
+        <name>선글라스</name>
+        <value>
+          <id>450450</id>
+          <text>멋진상품</text>
+        </value>
+      </optionItem>
     </option>
 
     <shippingPolicy>
