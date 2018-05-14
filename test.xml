@@ -314,9 +314,9 @@
               </options>
               <price>3000</price>
         </combination>
-    </option>
     
-    <option>
+
+
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
@@ -346,6 +346,7 @@
               <price>2000</price>
         </combination>
     </option>
+
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
