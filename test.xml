@@ -302,21 +302,6 @@
                 <text><![CDATA[라지]]></text>
             </value>
         </optionItem>
-        <combination>
-              <manageCode><![CDATA[B_L]]></manageCode>
-              <options>
-                    <id>B</id>
-                    <name><![CDATA[색상]]></name>
-              </options>
-              <options>
-                    <id>L</id>
-                    <name><![CDATA[사이즈]]></name>
-              </options>
-              <price>3000</price>
-        </combination>
-    
-
-
         <optionItem>
             <type>SELECT</type>
             <name><![CDATA[색상]]></name>
@@ -333,6 +318,7 @@
                 <text><![CDATA[미디엄]]></text>
             </value>
         </optionItem>
+        
         <combination>
               <manageCode><![CDATA[R_M]]></manageCode>
               <options>
@@ -345,8 +331,19 @@
               </options>
               <price>2000</price>
         </combination>
+        <combination>
+              <manageCode><![CDATA[B_L]]></manageCode>
+              <options>
+                    <id>B</id>
+                    <name><![CDATA[색상]]></name>
+              </options>
+              <options>
+                    <id>L</id>
+                    <name><![CDATA[사이즈]]></name>
+              </options>
+              <price>3000</price>
+        </combination>
     </option>
-
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
