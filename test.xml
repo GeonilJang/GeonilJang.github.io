@@ -69,14 +69,21 @@
         <optionItem>
             <type>INPUT</type>
             <name>선택옵션2</name>
-            <manageCode>00800</manageCode>
-            <price>2000</price>
             <value>
                 <id>1020</id>
                 <text>멋진상품2</text>
             </value>
         </optionItem>
-        
+
+        <combination>
+            <manageCode>00800</manageCode>
+            <price>2000</price>
+            <options>
+              <name>선택옵션2</name>
+              <id>1020</id>
+            </options>
+        </combination>
+
     </option>
 
 
