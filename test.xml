@@ -66,14 +66,14 @@
 
 
 
-        <optionItem>
+        <!-- <optionItem>
             <type>INPUT</type>
             <name>가로x세로</name>
             <value>
                 <id>1020</id>
-                <text>10cm x 20cm</text>
+                <text>10cmx20cm</text>
             </value>
-        </optionItem>
+        </optionItem> -->
 
         <!-- <combination>
             <manageCode>00800</manageCode>
