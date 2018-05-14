@@ -68,14 +68,14 @@
 
         <optionItem>
             <type>INPUT</type>
-            <name>선택옵션2</name>
+            <name>가로x세로</name>
             <value>
                 <id>1020</id>
-                <text>멋진상품2</text>
+                <text>10cm x 20cm</text>
             </value>
         </optionItem>
 
-        <combination>
+        <!-- <combination>
             <manageCode>00800</manageCode>
             <price>2000</price>
             <options>
@@ -83,7 +83,7 @@
               <id>G</id>
             </options>
 
-        </combination>
+        </combination> -->
 
     </option>
 
