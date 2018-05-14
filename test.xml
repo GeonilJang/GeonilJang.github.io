@@ -10,7 +10,7 @@
     <taxType>TAX</taxType>
     <infoUrl><![CDATA[http://www.naver.com]]></infoUrl>
     <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
-    
+
 
     <status>ON_SALE</status>
     <optionSupport>true</optionSupport>
@@ -23,6 +23,14 @@
           <text>멋진상품</text>
         </value>
       </optionItem>
+      <combination>
+            <manageCode>5099</manageCode>
+            <price>5000</price>
+            <options>
+                <name>선글라스</name>
+                <id>450450</id>
+            </options>
+        </combination>
     </option>
 
     <shippingPolicy>
