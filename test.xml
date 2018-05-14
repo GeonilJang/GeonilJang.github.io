@@ -64,25 +64,22 @@
         </combination>
 
 
-
-
         <optionItem>
-            <type>INPUT</type>
-            <name>선택옵션2</name>
-            <value>
-                <id>1020</id>
-                <text>멋진상품2</text>
-            </value>
+          <type>INPUT</type>
+          <name>폭 X 길이</name>
+          <value>
+            <id>450450</id>
+          </value>
         </optionItem>
-
         <combination>
-            <manageCode>00800</manageCode>
-            <price>2000</price>
-            <options>
-              <name>선택옵션2</name>
-              <id>1020</id>
-            </options>
+          <manageCode>5099</manageCode>
+          <price>2000</price>
+          <options>
+            <name>폭 X 길이</name>
+            <id>450450</id>
+          </options>
         </combination>
+
 
     </option>
 
