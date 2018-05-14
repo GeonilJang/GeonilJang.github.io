@@ -1,110 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <products>
 
-  <product>
-      <id>product01</id>
-      <merchantProductId>0000001</merchantProductId>
-      <ecMallProductId>0000001</ecMallProductId>
-      <name><![CDATA[블라인트]]></name>
-      <basePrice>30000</basePrice>
-      <taxType>TAX</taxType>
-      <infoUrl><![CDATA[http://localhost/NaverPayVersion2/NaverPayButton2.html]]></infoUrl>
-      <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
-      <status>ON_SALE</status>
-      <optionSupport>true</optionSupport>
-      <option>
-          <optionItem>
-              <type>SELECT</type>
-              <name><![CDATA[색상]]></name>
-              <value>
-                  <id>B</id>
-                  <text><![CDATA[파랑]]></text>
-              </value>
-          </optionItem>
-          <optionItem>
-              <type>SELECT</type>
-              <name><![CDATA[사이즈]]></name>
-              <value>
-                  <id>L</id>
-                  <text><![CDATA[라지]]></text>
-              </value>
-          </optionItem>
-          <optionItem>
-              <type>INPUT</type>
-              <name><![CDATA[사이즈]]></name>
-              <value>
-                  <id>450450</id>
-                  <text><![CDATA[450 x 450]]></text>
-              </value>
-          </optionItem>
+ <product>
+    <id>001</id>
+    <merchantProductId>00001</merchantProductId>
+    <ecMallProductId>00001</ecMallProductId>
+    <name><![CDATA[네이버페이 테스트 상품001]]></name>
+    <basePrice>30000</basePrice>
+    <taxType>TAX</taxType>
+    <infoUrl><![CDATA[http://www.naver.com]]></infoUrl>
+    <imageUrl><![CDATA[http://shop1.phinf.naver.net/20160812_247/showindowCommon_1470991533815qfz7e_JPEG/8336DSC05908.JPG]]></imageUrl>
+    <giftName><![CDATA[멋진사은품00001]]></giftName>
+
+    <status>ON_SALE</status>
+    <optionSupport>true</optionSupport>
+    <option>
+        <!-- <optionItem>
+            <type>SELECT</type>
+            <name>선택옵션1_1</name>
+            <manageCode>00700</manageCode>
+            <value>
+                <id>1010</id>
+                <text>멋진상품1</text>
+            </value>
+        </optionItem>
+
+        <optionItem>
+            <type>SELECT</type>
+            <name>선택옵션1_2</name>
+            <manageCode>00700</manageCode>
+            <value>
+                <id>1011</id>
+                <text>멋진상품2</text>
+            </value>
+        </optionItem> -->
+        <combination>
+          <manageCode>00700</manageCode>
+          
+        </combination>
 
 
 
-          <combination>
-                <manageCode><![CDATA[B_L]]></manageCode>
-                <options>
-                      <id>B</id>
-                      <name><![CDATA[색상]]></name>
-                </options>
-                <options>
-                      <id>L</id>
-                      <name><![CDATA[사이즈]]></name>
-                </options>
-                <price>3000</price>
-          </combination>
-      </option>
-      <option>
-          <optionItem>
-              <type>SELECT</type>
-              <name><![CDATA[색상]]></name>
-              <value>
-                  <id>R</id>
-                  <text><![CDATA[빨강]]></text>
-              </value>
-          </optionItem>
-          <optionItem>
-              <type>SELECT</type>
-              <name><![CDATA[사이즈]]></name>
-              <value>
-                  <id>M</id>
-                  <text><![CDATA[미디엄]]></text>
-              </value>
-          </optionItem>
-          <combination>
-                <manageCode><![CDATA[R_M]]></manageCode>
-                <options>
-                      <id>R</id>
-                      <name><![CDATA[색상]]></name>
-                </options>
-                <options>
-                      <id>M</id>
-                      <name><![CDATA[사이즈]]></name>
-                </options>
-                <price>2000</price>
-          </combination>
-      </option>
-      <shippingPolicy>
-          <method>DELIVERY</method>
-          <feeType>CHARGE_BY_QUANTITY</feeType>
-          <feePayType>PREPAYED</feePayType>
-          <feePrice>2500</feePrice>
-          <chargeByQuantity>
-              <type>RANGE</type>
-              <range>
-                  <type>2</type>
-                  <range2From>3</range2From>
-                  <range2FeePrice>2500</range2FeePrice>
-              </range>
-          </chargeByQuantity>
-      </shippingPolicy>
-  </product>
+        <optionItem>
+            <type>INPUT</type>
+            <name>선택옵션2</name>
+            <!-- <manageCode>00800</manageCode> -->
+            <value>
+                <!-- <id>1020</id> -->
+                <text>멋진상품2</text>
+            </value>
+        </optionItem>
+
+        <!-- <combination>
+          <manageCode>00700</manageCode>
+              <options>
+                  <name>선글라스</name>
+                  <id>1010</id>
+              </options>
+              <price>2000</price>
+        </combination> -->
+
+    </option>
+
+    <shippingPolicy>
+        <method>DELIVERY</method>
+        <feeType>FREE</feeType>
+        <feePayType>FREE</feePayType>
+        <feePrice>0</feePrice>
+    </shippingPolicy>
+</product>
 
 
 <!-- ////////////////////////////// -->
 
 
-
-<!-- ////////////////////////////////////// -->
 
 <product>
     <id>00001</id>
@@ -283,9 +252,6 @@
               <price>3000</price>
         </combination>
     </option>
-
-
-
     <shippingPolicy>
         <method>DELIVERY</method>
         <feeType>CHARGE_BY_QUANTITY</feeType>
@@ -330,8 +296,6 @@
                 <text><![CDATA[라지]]></text>
             </value>
         </optionItem>
-
-
         <combination>
               <manageCode><![CDATA[B_L]]></manageCode>
               <options>
