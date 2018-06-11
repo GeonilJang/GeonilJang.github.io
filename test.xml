@@ -396,7 +396,88 @@
     </shippingPolicy>
 </product>
 
+<product>
+<id>1000001272</id>
+<ecMallProductId>1000001272</ecMallProductId>
+<name>
+<![CDATA[ 월령 목걸이 (소mini) 14k ]]>
+</name>
+<basePrice>230000</basePrice>
+<taxType>TAX</taxType>
+<infoUrl>
+<![CDATA[
+http://maad.co.kr/goods/goods_view.php?inflow=naverPay&goodsNo=1000001272
+]]>
+</infoUrl>
+<imageUrl>
+<![CDATA[
+http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
+]]>
+</imageUrl>
+<status>ON_SALE</status>
+<supplementSupport>false</supplementSupport>
+<optionSupport>true</optionSupport>
+<shippingPolicy>
+<method>DELIVERY</method>
+<groupId>2</groupId>
+<conditionalFree>
+<basePrice>30000</basePrice>
+</conditionalFree>
+<feePayType>PREPAYED</feePayType>
+<feePrice>3000</feePrice>
+<feeType>CONDITIONAL_FREE</feeType>
+</shippingPolicy>
 
+<option>
+<optionItem>
+<type>SELECT</type>
+<name>
+<![CDATA[ 체인길이 ]]>
+</name>
+<value>
+<id>S_9fcd48f53c9f1b44a76dd87f1cc921</id>
+<text>
+<![CDATA[ 38cm~40cm ]]>
+</text>
+</value>
+<value>
+<id>S_fc8a53978bffb66ea5ab886963cd96</id>
+<text>
+<![CDATA[ 40cm~42cm (여성 기본) ]]>
+</text>
+</value>
+<value>
+<id>S_3a797cff5d47239315769253211971</id>
+<text>
+<![CDATA[ 43cm~45cm ]]>
+</text>
+</value>
+<value>
+<id>S_7cd41f2e76616a64469bb0900b16ae</id>
+<text>
+<![CDATA[ 45cm~47cm ]]>
+</text>
+</value>
+<value>
+<id>S_6b20b9f7497400c0025af964a94156</id>
+<text>
+<![CDATA[ 주문제작 요청 ]]>
+</text>
+</value>
+</optionItem>
+
+<combination>
+<manageCode>option2418514</manageCode>
+<options>
+<name>
+<![CDATA[ 체인길이 ]]>
+</name>
+<id>S_9fcd48f53c9f1b44a76dd87f1cc921</id>
+</options>
+<price>0</price>
+</combination>
+</option>
+</product>
 
 
 
