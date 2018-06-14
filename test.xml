@@ -479,6 +479,168 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 </option>
 </product>
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <product>
+<id>1000000030</id>
+<ecMallProductId>1000000030</ecMallProductId>
+<name>
+<![CDATA[ 핑크빛 장미 ]]>
+</name>
+<basePrice>18900</basePrice>
+<taxType>TAX_FREE</taxType>
+<infoUrl>
+<![CDATA[
+http://planant.co.kr/goods/goods_view.php?inflow=naverPay&goodsNo=1000000030
+]]>
+</infoUrl>
+<imageUrl>
+<![CDATA[
+http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
+]]>
+</imageUrl>
+<status>ON_SALE</status>
+<supplementSupport>false</supplementSupport>
+<optionSupport>true</optionSupport>
+
+
+<shippingPolicy>
+<method>DELIVERY</method>
+<groupId>1</groupId>
+<chargeByQuantity>
+<type>RANGE</type>
+<range>
+<type>3</type>
+<range2From>4</range2From>
+<range2FeePrice>3000</range2FeePrice>
+<range3From>10</range3From>
+<range3FeePrice>6000</range3FeePrice>
+</range>
+</chargeByQuantity>
+<feePayType>PREPAYED</feePayType>
+<feePrice>3000</feePrice>
+<feeType>CHARGE_BY_QUANTITY</feeType>
+</shippingPolicy>
+
+<option>
+<optionItem>
+<type>SELECT</type>
+<name>
+<![CDATA[ 그린소재 ]]>
+</name>
+<value>
+<id>S_c1ad636102aa1ffc83d68295a49baa</id>
+<text>
+<![CDATA[ 그린소재 추가 (+2800) ]]>
+</text>
+</value>
+<value>
+<id>S_ccec22638a62cafa33646f45aa7461</id>
+<text>
+<![CDATA[ 선택안함 ]]>
+</text>
+</value>
+</optionItem>
+
+<optionItem>
+<type>SELECT</type>
+<name>
+<![CDATA[ 화병 ]]>
+</name>
+<value>
+<id>S_7252a67661c41b6100acf4ad4a64f0</id>
+<text>
+<![CDATA[ 화병추가 (+4900) ]]>
+</text>
+</value>
+<value>
+<id>S_df9ca47a965bb2f64b0a83945a7056</id>
+<text>
+<![CDATA[ 선택안함 ]]>
+</text>
+</value>
+</optionItem>
+
+<optionItem>
+<type>SELECT</type>
+<name>
+<![CDATA[ 편지 ]]>
+</name>
+<value>
+<id>S_3917f21efa886952234fc46b72d55b</id>
+<text>
+<![CDATA[ 편지추가 (+1500) ]]>
+</text>
+</value>
+<value>
+<id>S_be9c247c966b2c8c8ba5160c411b12</id>
+<text>
+<![CDATA[ 선택안함 ]]>
+</text>
+</value>
+</optionItem>
+
+<optionItem>
+<type>INPUT</type>
+<name>
+<![CDATA[ <발송일> 지정 ]]>
+</name>
+</optionItem>
+
+<combination>
+<manageCode>option188</manageCode>
+<options>
+<name>
+<![CDATA[ 그린소재 ]]>
+</name>
+<id>S_c1ad636102aa1ffc83d68295a49baa</id>
+</options>
+<options>
+<name>
+<![CDATA[ 화병 ]]>
+</name>
+<id>S_7252a67661c41b6100acf4ad4a64f0</id>
+</options>
+<options>
+<name>
+<![CDATA[ 편지 ]]>
+</name>
+<id>S_3917f21efa886952234fc46b72d55b</id>
+</options>
+<options>
+<name>
+<![CDATA[ &lt;발송일&gt; 지정 ]]>
+</name>
+<id>T6</id>
+</options>
+<price>9200</price>
+</combination>
+</option>
+</product>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 
