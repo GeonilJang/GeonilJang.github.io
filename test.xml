@@ -529,73 +529,43 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 </shippingPolicy>
 
 <option>
+
+<optionItem>
+  <type>SELECT</type>
+  <name><![CDATA[ 그린소재 ]]></name>
+  <value>
+    <id>S_c1ad636102aa1ffc83d68295a49baa</id>
+    <text><![CDATA[ 그린소재 추가 (+2800) ]]></text>
+  </value>
+</optionItem>
+
 <optionItem>
 <type>SELECT</type>
-<name>
-<![CDATA[ 그린소재 ]]>
-</name>
+<name><![CDATA[ 화병 ]]></name>
 <value>
-<id>S_c1ad636102aa1ffc83d68295a49baa</id>
-<text>
-<![CDATA[ 그린소재 추가 (+2800) ]]>
-</text>
-</value>
-<value>
-<id>S_ccec22638a62cafa33646f45aa7461</id>
-<text>
-<![CDATA[ 선택안함 ]]>
-</text>
+  <id>S_7252a67661c41b6100acf4ad4a64f0</id>
+  <text><![CDATA[ 화병추가 (+4900) ]]></text>
 </value>
 </optionItem>
+
 <optionItem>
-<type>SELECT</type>
-<name>
-<![CDATA[ 화병 ]]>
-</name>
-<value>
-<id>S_7252a67661c41b6100acf4ad4a64f0</id>
-<text>
-<![CDATA[ 화병추가 (+4900) ]]>
-</text>
-</value>
-<value>
-<id>S_df9ca47a965bb2f64b0a83945a7056</id>
-<text>
-<![CDATA[ 선택안함 ]]>
-</text>
-</value>
-</optionItem>
-<optionItem>
-<type>SELECT</type>
-<name>
-<![CDATA[ 편지 ]]>
-</name>
-<value>
-<id>S_3917f21efa886952234fc46b72d55b</id>
-<text>
-<![CDATA[ 편지추가 (+1500) ]]>
-</text>
-</value>
-<value>
-<id>S_be9c247c966b2c8c8ba5160c411b12</id>
-<text>
-<![CDATA[ 선택안함 ]]>
-</text>
-</value>
+  <type>SELECT</type>
+  <name><![CDATA[ 편지 ]]></name>
+  <value>
+    <id>S_3917f21efa886952234fc46b72d55b</id>
+    <text><![CDATA[ 편지추가 (+1500) ]]></text>
+  </value>
 </optionItem>
 
 <optionItem>
 <type>INPUT</type>
 <value>
   <id>T6</id>
+  <name><![CDATA[ <발송일> 지정 ]]></name>
 </value>
-<name>
-<![CDATA[ <발송일> 지정 ]]>
-</name>
 </optionItem>
 
 <combination>
-
 <manageCode>option188</manageCode>
 <options>
 <name>
@@ -630,7 +600,6 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 </combination>
 </option>
 </product>
-
 
 
  
