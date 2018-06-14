@@ -494,8 +494,7 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
  
  
  
- 
-<product>
+ <product>
 <id>1000000030</id>
 <ecMallProductId>1000000030</ecMallProductId>
 <name>
@@ -595,7 +594,7 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 <optionItem>
 <type>INPUT</type>
 <name>
-<![CDATA[ <발송일> 지정 ]]>
+<![CDATA[ 발송일 지정 ]]>
 </name>
 </optionItem>
 
@@ -619,13 +618,16 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 </name>
 <id>S_3917f21efa886952234fc46b72d55b</id>
 </options>
+
 <options>
 <name>
-<![CDATA[ <발송일> 지정 ]]>
+<![CDATA[ 발송일 지정 ]]>
 </name>
 <id>T6</id>
+
 </options>
 <price>9200</price>
+
 </combination>
 </option>
 </product>
