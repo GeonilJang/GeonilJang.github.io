@@ -633,8 +633,15 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
   </name>
   <basePrice>100</basePrice>
   <taxType>TAX</taxType>
-  <infoUrl><![CDATA[http://natjang.com/goods/goods_view.php?inflow=naverPay&goodsNo=1000000003]]></infoUrl>
-  <imageUrl><![CDATA[http://natjang.com/data/goods/17/02/07/1000000003/1000000003_main_018.gif]]>
+  <infoUrl>
+    <![CDATA[
+http://natjang.com/goods/goods_view.php?inflow=naverPay&goodsNo=1000000003
+]]>
+  </infoUrl>
+  <imageUrl>
+    <![CDATA[
+http://natjang.com/data/goods/17/02/07/1000000003/1000000003_main_018.gif
+]]>
   </imageUrl>
   <status>ON_SALE</status>
   <supplementSupport>false</supplementSupport>
@@ -2057,6 +2064,7 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
     </combination>
   </option>
 </product>
+
 
 
 
