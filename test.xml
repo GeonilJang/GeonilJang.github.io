@@ -495,14 +495,10 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 <basePrice>18900</basePrice>
 <taxType>TAX_FREE</taxType>
 <infoUrl>
-<![CDATA[
-http://planant.co.kr/goods/goods_view.php?inflow=naverPay&goodsNo=1000000030
-]]>
+<![CDATA[http://planant.co.kr/goods/goods_view.php?inflow=naverPay&goodsNo=1000000030]]>
 </infoUrl>
 <imageUrl>
-<![CDATA[
-http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
-]]>
+<![CDATA[http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg]]>
 </imageUrl>
 <status>ON_SALE</status>
 <supplementSupport>false</supplementSupport>
@@ -594,6 +590,7 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 </combination>
 </option>
 </product>
+
 
 
  
