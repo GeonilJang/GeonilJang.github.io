@@ -584,42 +584,31 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 </optionItem>
 <optionItem>
 <type>INPUT</type>
-<name>
-<![CDATA[ &lt;발송일&gt; 지정 ]]>
-</name>
+<name><![CDATA[ &lt;발송일&gt; 지정 ]]></name>
 <id>T6</id>
 </optionItem>
 <combination>
 <manageCode>option188</manageCode>
 <options>
-<name>
-<![CDATA[ 그린소재 ]]>
-</name>
+<name><![CDATA[ 그린소재 ]]></name>
 <id>S_c1ad636102aa1ffc83d68295a49baa</id>
 </options>
 <options>
-<name>
-<![CDATA[ 화병 ]]>
-</name>
+<name><![CDATA[ 화병 ]]></name>
 <id>S_7252a67661c41b6100acf4ad4a64f0</id>
 </options>
 <options>
-<name>
-<![CDATA[ 편지 ]]>
-</name>
+<name><![CDATA[ 편지 ]]></name>
 <id>S_3917f21efa886952234fc46b72d55b</id>
 </options>
 <options>
-<name>
-<![CDATA[ &lt;발송일&gt; 지정 ]]>
-</name>
+<name><![CDATA[ &lt;발송일&gt; 지정 ]]></name>
 <id>T6</id>
 </options>
 <price>9200</price>
 </combination>
 </option>
 </product>
-
 
  
  
