@@ -561,7 +561,6 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 <type>INPUT</type>
 <value>
   <id>T6</id>
-  <name><![CDATA[ <발송일> 지정 ]]></name>
 </value>
 </optionItem>
 
@@ -589,18 +588,14 @@ http://planant.co.kr/data/goods/18/03/10/1000000030/1000000030_main_072.jpg
 </options>
 
 <options>
-<name>
-<![CDATA[ <발송일> 지정 ]]>
-</name>
+<name><![CDATA[ <발송일> 지정 ]]></name>
 <id>T6</id>
-
 </options>
 
 <price>9200</price>
 </combination>
 </option>
 </product>
-
 
  
  
