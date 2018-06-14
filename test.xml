@@ -665,7 +665,7 @@ http://natjang.com/data/goods/17/02/07/1000000003/1000000003_main_018.gif
 <optionItem>
 <type>SELECT</type>
 <name>
-<![CDATA[ 모델명/ ]]>
+<![CDATA[ 모델명/사이즈 ]]>
 </name>
 <value>
 <id>S_1c027d684a1955b8940f664816397a</id>
@@ -2066,6 +2066,7 @@ http://natjang.com/data/goods/17/02/07/1000000003/1000000003_main_018.gif
 </combination>
 </option>
 </product>
+
 
 
  
