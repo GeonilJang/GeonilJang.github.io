@@ -654,9 +654,7 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 <option>
 <optionItem>
 <type>SELECT</type>
-<name>
-<![CDATA[ 모델명 ]]>
-</name>
+<name><![CDATA[ 모델명/사이즈 ]]></name>
 <value>
 <id>S_1c027d684a1955b8940f664816397a</id>
 <text><![CDATA[ 099호 130X130X1250 낱장(1장) ]]></text>
