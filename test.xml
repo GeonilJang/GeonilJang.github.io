@@ -160,14 +160,7 @@
                 <text><![CDATA[멋진상품]]></text>
             </value>
         </optionItem>
-        <combination>
-          <manageCode>3653</manageCode>
-              <options>
-                  <name><![CDATA[option]]></name>
-                  <id>71443</id>
-              </options>
-              <price>2000</price>
-        </combination>
+        
     </option>
     <shippingPolicy>
         <method>DELIVERY</method>
