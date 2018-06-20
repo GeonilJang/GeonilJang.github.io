@@ -1586,6 +1586,82 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 
 
 
+<products>
+<product>
+<id>1000003361</id>
+<ecMallProductId>1000003361</ecMallProductId>
+<name><![CDATA[플레인 시어서커 리플 여름 홑이불 세트]]></name>
+<basePrice>8500</basePrice>
+<taxType>TAX</taxType>
+<infoUrl><![CDATA[http://flora.co.kr/goods/goods_view.php?inflow=naverPay&goodsNo=1000003361]]></infoUrl>
+<imageUrl><![CDATA[http://bbworld.godohosting.com/ad/goods/18/05/22/1000003361/1000003361_main_052.jpg]]></imageUrl>
+<status>ON_SALE</status>
+<supplementSupport>false</supplementSupport>
+<optionSupport>true</optionSupport>
+<shippingPolicy>
+<method>DELIVERY</method>
+<groupId>5</groupId>
+<conditionalFree>
+<basePrice>30000</basePrice>
+</conditionalFree>
+<feePayType>PREPAYED</feePayType>
+<feePrice>3000</feePrice>
+<feeType>CONDITIONAL_FREE</feeType>
+<surchargeByArea>
+<splitUnit>2</splitUnit>
+<area2Price>5000</area2Price>
+</surchargeByArea>
+</shippingPolicy>
+<option>
+<optionItem>
+<type>SELECT</type>
+<name><![CDATA[사이즈]]></name>
+<value>
+<id>S_c88b5933e30b4075107908eca98897</id>
+<text><![CDATA[홑이불 단품]]></text>
+</value>
+<value>
+<id>S_868aeac266c0cbbe8bf54b5465704c</id>
+<text><![CDATA[홑이불+베개커버1장]]></text>
+</value>
+<value>
+<id>S_cabb6bc7caf6c82077276db6edd51e</id>
+<text><![CDATA[홑이불+베개커버 1장+ 패드 S/SS]]></text>
+</value>
+<value>
+<id>S_f53db0263a35aa98fa912178bd306a</id>
+<text><![CDATA[홑이불+베개커버 2장]]></text>
+</value>
+<value>
+<id>S_3cc2e0888242e0e9c6e934878ecb17</id>
+<text><![CDATA[홑이불+베개커버 2장+패드 Q/K]]></text>
+</value>
+</optionItem>
+<optionItem>
+<type>SELECT</type>
+<name><![CDATA[구성]]></name>
+<value>
+<id>S_c111a6ea3dafb48c4de40bffb371cc</id>
+<text><![CDATA[]]></text>
+</value>
+</optionItem>
+
+<combination>
+<manageCode>option3802</manageCode>
+<options>
+<name><![CDATA[사이즈/구성]]></name>
+<id>S_3cc2e0888242e0e9c6e934878ecb17</id>
+</options>
+<price>33000</price>
+</combination>
+
+</option>
+
+
+
+
+</product>
+</products>
 
  
 
