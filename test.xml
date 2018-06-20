@@ -1586,7 +1586,7 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 
 
 
-<products>
+
 <product>
 <id>1000003361</id>
 <ecMallProductId>1000003361</ecMallProductId>
@@ -1615,7 +1615,7 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 <option>
 <optionItem>
 <type>SELECT</type>
-<name><![CDATA[사이즈]]></name>
+<name><![CDATA[사이즈/구성]]></name>
 <value>
 <id>S_c88b5933e30b4075107908eca98897</id>
 <text><![CDATA[홑이불 단품]]></text>
@@ -1661,7 +1661,8 @@ http://maad.co.kr/data/goods//16/03/29/1000001272/1000001272_Main.jpg
 
 
 </product>
-</products>
+
+
 
  
 
